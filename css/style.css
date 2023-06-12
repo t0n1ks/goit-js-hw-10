@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-top: 30px;
+  }
+  
+  .loader {
+    display: none;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .breed-select {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .cat-info {
+    display: none;
+    margin-top: 30px;
+  }
+  
+  .cat-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    display: none;
+    color: red;
+    margin-top: 20px;
+  }
+  
+
+
+.breed-select {
+  display: none;
+}
+
+.breed-select.loading {
+  display: none;
+}
+
+.breed-select.loaded {
+  display: block;
+}
+
+
+
