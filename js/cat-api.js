@@ -1,4 +1,4 @@
-// debugger
+// // debugger
 
 const API_KEY = 'live_yJJgXppEDoms8PRuQx8sA35bNYUBrCYoqxUur118g8n0RW8lyrBNWSmtAZjOJXLR';
 
@@ -44,4 +44,6 @@ export async function fetchCatByBreed(breedId) {
   }
 }
 
+// debugger
 
+// debugger
